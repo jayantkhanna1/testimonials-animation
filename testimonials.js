@@ -1,7 +1,7 @@
 
 //xml request to get data from json
 var xmlhttp = new XMLHttpRequest();
-var url = "data.json";
+var url = "testimonials.json";
 
 xmlhttp.onreadystatechange = function() {
   if (this.readyState == 4 && this.status == 200) {
